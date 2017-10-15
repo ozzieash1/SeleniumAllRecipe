@@ -16,6 +16,7 @@ import org.testng.annotations.Test;
 
 public class ElementText {
 
+	//Test Comment
 	private static WebDriver driver;
 	private static StringBuffer verificationErrors = new StringBuffer();
 
@@ -39,6 +40,8 @@ public class ElementText {
 	
 }
 
+	
+	
 	@Test
 	public void testElementStyle(){
 		WebElement message = driver.findElement(By.id("message"));
@@ -50,6 +53,7 @@ public class ElementText {
 	@Test
 	public void testDefaultSelectedCheckbox() {
 
+		
 		// Expected list of selected Checkbox
 		List<String> checked = Arrays
 				.asList("user128_admin", "user220_browser");
